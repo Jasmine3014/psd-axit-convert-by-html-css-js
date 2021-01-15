@@ -580,6 +580,13 @@ padding: 10px;
 }
 
 /*responsive devices css start*/
+@media (min-width: 1200px) and (max-width: 1600px) {
+	.pricing {
+		max-width: 1600px;
+		margin-left: -235px;
+	}
+
+}
 @media (min-width: 992px) and (max-width: 1200px) {
 	.feature .tab-btn-group .tab-btn {
 		width: 100%;
